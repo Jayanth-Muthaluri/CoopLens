@@ -1,11 +1,26 @@
 {
   "manifest_version": 3,
-  "name": "CoopLens — AI Job Fit Analyzer",
+  "name": "CoopLens - AI Job Fit Analyzer",
   "short_name": "CoopLens",
-  "version": "2.0.0",
-  "description": "Instantly analyze any job posting. Get a fit score, gap analysis, resume tweaks, and cover letter angle — powered by AI.",
+  "version": "2.0.1",
+  "description": "Instantly analyze any job posting. Get a fit score, gap analysis, resume tweaks, and cover letter angle - powered by AI.",
   "permissions": ["activeTab", "scripting", "storage", "tabs"],
-  "host_permissions": ["https://*/*", "http://*/*"],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.joinhandshake.com/*",
+    "https://*.greenhouse.io/*",
+    "https://*.lever.co/*",
+    "https://*.indeed.com/*",
+    "https://*.myworkdayjobs.com/*",
+    "https://*.smartrecruiters.com/*",
+    "https://*.ashbyhq.com/*",
+    "https://*.icims.com/*",
+    "https://*.taleo.net/*",
+    "https://*.rippling.com/*",
+    "https://*.jobvite.com/*",
+    "https://*.breezy.hr/*",
+    "https://*.recruitee.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -16,7 +31,22 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*/*", "http://*/*"],
+      "matches": [
+        "https://*.linkedin.com/*",
+        "https://*.joinhandshake.com/*",
+        "https://*.greenhouse.io/*",
+        "https://*.lever.co/*",
+        "https://*.indeed.com/*",
+        "https://*.myworkdayjobs.com/*",
+        "https://*.smartrecruiters.com/*",
+        "https://*.ashbyhq.com/*",
+        "https://*.icims.com/*",
+        "https://*.taleo.net/*",
+        "https://*.rippling.com/*",
+        "https://*.jobvite.com/*",
+        "https://*.breezy.hr/*",
+        "https://*.recruitee.com/*"
+      ],
       "js": ["src/content.js"],
       "run_at": "document_idle"
     }
