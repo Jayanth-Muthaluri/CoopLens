@@ -1,4 +1,4 @@
-# CoopLens — AI Job Fit Analyzer
+# CoopLens - AI Job Fit Analyzer
 
 > A Chrome extension that reads any job posting, scores your fit against your resume, and gives you a full analysis in ~5 seconds. Built for co-op and internship seekers who are tired of applying blind.
 
@@ -13,14 +13,14 @@
 
 You're on a LinkedIn job page. You click CoopLens. In 5 seconds you get:
 
-- **Fit score** (0–100) with a plain-English verdict
-- **Matched strengths** — what in your resume directly supports this role
-- **Gaps** — ranked Critical / Moderate / Minor, each with a specific fix
-- **Resume tweaks** — exact bullet changes to tailor your resume for this role
-- **Cover letter angle** — the single most compelling hook to lead with
-- **Interview prep topics** — what they're likely to ask
-- **Red flags** — anything that could get you auto-rejected
-- **Apply recommendation** — Apply Now / Apply With Tweaks / Stretch / Skip
+- **Fit score** (0-100) with a plain-English verdict
+- **Matched strengths** - what in your resume directly supports this role
+- **Gaps** - ranked Critical / Moderate / Minor, each with a specific fix
+- **Resume tweaks** - exact bullet changes to tailor your resume for this role
+- **Cover letter angle** - the single most compelling hook to lead with
+- **Interview prep topics** - what they're likely to ask
+- **Red flags** - anything that could get you auto-rejected
+- **Apply recommendation** - Apply Now / Apply With Tweaks / Stretch / Skip
 
 Everything auto-saves to a built-in **Tracker** with status tracking and CSV export.
 
@@ -38,7 +38,7 @@ Everything auto-saves to a built-in **Tracker** with status tracking and CSV exp
 
 ## Install
 
-### Option A — Load unpacked (developer mode)
+### Option A - Load unpacked (developer mode)
 
 1. Download this repo as a ZIP → unzip it
 2. Open `chrome://extensions/`
@@ -46,7 +46,7 @@ Everything auto-saves to a built-in **Tracker** with status tracking and CSV exp
 4. Click **Load unpacked** → select the `cooplens/` folder
 5. Pin CoopLens via the 🧩 puzzle piece icon in your toolbar
 
-### Option B — Chrome Web Store
+### Option B - Chrome Web Store
 
 *Coming soon.*
 
@@ -75,7 +75,7 @@ The more detail you include in your profile (skills, projects, experience, certi
 1. Navigate to any job posting on a supported platform
 2. Click the **CoopLens** icon in your toolbar
 3. Hit **Analyze my fit**
-4. Read your analysis — act on it before applying
+4. Read your analysis - act on it before applying
 
 ---
 
@@ -128,7 +128,7 @@ cooplens/
 │   └── icon128.png
 └── src/
     ├── popup.js           UI logic, state management, rendering
-    ├── content.js         DOM scraper — 8 platform-specific + generic fallback
+    ├── content.js         DOM scraper - 8 platform-specific + generic fallback
     └── background.js      Groq API calls + Chrome storage operations
 ```
 
@@ -136,7 +136,7 @@ cooplens/
 
 ## Privacy
 
-- Your API key and resume are stored **locally in Chrome only** — never sent anywhere except Groq's API when you click Analyze
+- Your API key and resume are stored **locally in Chrome only** - never sent anywhere except Groq's API when you click Analyze
 - Job descriptions are sent to [Groq's API](https://groq.com/privacy-policy) for analysis
 - CoopLens operates no backend, no database, no analytics
 - All data can be deleted via **Settings → Clear all data** or by removing the extension
@@ -164,7 +164,7 @@ Pull requests welcome. If you find a job board whose scraping is broken, open an
 **Jayanth** — MS Information Systems, Northeastern University  
 Built as a real tool to navigate my own co-op search. Scratched my own itch.
 
-[LinkedIn](https://linkedin.com/in/yourprofile) · [Portfolio](https://yourportfolio.com)
+[LinkedIn](https://www.linkedin.com/in/jayanthm20/) · [Portfolio](https://jayanth-muthaluri-portfolio.netlify.app/)
 
 ---
 
