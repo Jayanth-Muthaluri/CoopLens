@@ -2,9 +2,13 @@
   "manifest_version": 3,
   "name": "CoopLens - AI Job Fit Analyzer",
   "short_name": "CoopLens",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Instantly analyze any job posting. Get a fit score, gap analysis, resume tweaks, and cover letter angle - powered by AI.",
-  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
   "host_permissions": [
     "https://*.linkedin.com/*",
     "https://*.joinhandshake.com/*",
@@ -47,7 +51,9 @@
         "https://*.breezy.hr/*",
         "https://*.recruitee.com/*"
       ],
-      "js": ["src/content.js"],
+      "js": [
+        "src/content.js"
+      ],
       "run_at": "document_idle"
     }
   ],
