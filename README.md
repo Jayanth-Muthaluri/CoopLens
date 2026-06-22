@@ -48,7 +48,7 @@ Everything auto-saves to a built-in **Tracker** with status tracking and CSV exp
 
 ### Option B - Chrome Web Store
 
-1. Install from Chrome Web Store `https://chromewebstore.google.com/detail/lnbkldcfedcikhdpidmpckkhbangplpj?utm_source=item-share-cb`
+1. Install from Chrome Web Store [https://chromewebstore.google.com/detail/lnbkldcfedcikhdpidmpckkhbangplpj?utm_source=item-share-cb](https://chromewebstore.google.com/detail/lnbkldcfedcikhdpidmpckkhbangplpj?utm_source=item-share-cb)
 
 ---
 
